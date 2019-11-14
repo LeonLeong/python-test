@@ -4,6 +4,7 @@ import re
 def weakRegex(length: int):
     #password with upper and lower case alphabets
     #test
+    #test2
     return
 
 def moderateRegex(length: int):
