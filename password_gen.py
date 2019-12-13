@@ -1,24 +1,28 @@
 import random
 import re
 
-def weakRegex(length: int):
+def weak_regex(length: int):
     #password with upper and lower case alphabets
     return
 
-def moderateRegex(length: int):
-    #password with upper and lower case alphabets
-    #+numbers
+def moderate_regex(length: int):
+    """
+    password with upper and lower case alphabets
+    +numbers
+    """
     return
 
-def strongRegex(length: int):
-    #password with upper and lower case alphabets
-    #+numbers
-    #+special characters.
+def strong_regex(length: int):
+    """
+    password with upper and lower case alphabets+numbers+special characters.
+    """
     return
 
 def main():
-    #Loop to get user input, will not break unless the requirements
-    #of both inputs are satisfied.
+    """
+    Loop to get user input, will not break unless the requirements
+    of both inputs are satisfied.
+    """
     while True:
         num1 = int(input("""Choose password strength:
         \n1 = Weak
@@ -33,13 +37,13 @@ def main():
 
     if(num1 == 1):
         print("Generating password with weak regex...")
-        weakRegex(num2)
+        weak_regex(num2)
     elif(num1 == 2):
         print("Generating password with moderate regex...")
-        moderateRegex(num2)
+        moderate_regex(num2)
     elif(num1 == 3):
         print("Generating password with strong regex...")
-        strongRegex(num2)
+        strong_regex(num2)
 
 if __name__ == "__main__":
     main()
