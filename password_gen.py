@@ -20,7 +20,11 @@ def main():
     #Loop to get user input, will not break unless the requirements
     #of both inputs are satisfied.
     while True:
-        num1 = int(input("Choose password strength:\n1 = Weak\n2 = Moderate\n3 = Strong\nStrength: "))
+        num1 = int(input("""Choose password strength:
+        \n1 = Weak
+        \n2 = Moderate
+        \n3 = Strong
+        \nStrength: """))
         num2 = int(input("Choose password length[6-12]: "))
         if (1 <= num1 <= 3 and 6 <= num2 <= 12):
             break
