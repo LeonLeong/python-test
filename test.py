@@ -1,2 +1,6 @@
 print("Hello World")
-print("Clone repo from command pal")
+print("Clone repo from command palette")
+print("Make sure git username and password is set")
+print("Make changes")
+print("Git commit")
+print("Git push")
