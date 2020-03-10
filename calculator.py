@@ -2,15 +2,15 @@ def additiion(num1, num2):
     #take two integers and add them together.
     return num1 + num2
 
-def subtraction(num1, num2):
+def subtraction(numOne, numTwo):
     #take two integers and subtract the second from the first.
     return num1 + num2
 
-def multiplication(num1, num2):
+def multiplication(numOne, numTwo):
     #blah
     return num1 * num2
 
-def division(num1, num2):
+def division(numOne, numTwo):
     #bleh
     return num1 / num2
 
@@ -19,10 +19,10 @@ print ("Calculator!")
 while True:
     print ("Enter q to exit.")
 
-    num1 = input ("Input an integer: ")
+    numOne = input ("Input an integer: ")
     if num1 == "q":
         break
-    num2 = input ("Input another integer: ")
+    numTwo = input ("Input another integer: ")
     if num2 == "q":
         break
 
