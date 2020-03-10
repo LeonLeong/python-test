@@ -1,6 +1,7 @@
 print("Hello World")
 print("Clone repo from command palette")
-print("Make sure git username and password is set")
+print("Now we are going to make some changes.")
+print("Make sure Git username and password is properly set")
 print("Make changes")
 print("Git commit")
 print("Git push")

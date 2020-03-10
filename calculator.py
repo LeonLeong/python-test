@@ -19,11 +19,11 @@ print ("Calculator!")
 while True:
     print ("Enter q to exit.")
 
-    num1 = input ("Input an integer: ")
-    if num1 == "q":
+    NUM1 = input ("Input an integer: ")
+    if NUM1 == "q":
         break
-    num2 = input ("Input another integer: ")
-    if num2 == "q":
+    NUM2 = input ("Input another integer: ")
+    if NUM2 == "q":
         break
 
     if (num1 != None or num2 != None):
