@@ -26,7 +26,7 @@ while True:
     if NUM2 == "q":
         break
 
-    if (num1 != None or num2 != None):
+    if ((num1 != None) or (num2 != None)):
         #lazy to implement regex for now.
         num1 = float(num1)
         num2 = float(num2)
